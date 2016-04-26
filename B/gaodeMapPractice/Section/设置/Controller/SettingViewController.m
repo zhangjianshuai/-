@@ -18,6 +18,7 @@
     //Person *person;
     DataManager *dataManager;
     
+    
 }
 
 - (IBAction)detialButton:(id)sender;
@@ -32,7 +33,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    NSLog(@"甩甩你好帅");
     self.view.backgroundColor = [UIColor colorWithRed:245/255. green:245/255. blue:245/255. alpha:1];
     pic.layer.cornerRadius = 10;
     pic.clipsToBounds = YES;
